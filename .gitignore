@@ -1,6 +1,14 @@
+# Project specific ignores
+#
+# Add any project specific files to ignore here.
+
 # OS
+#
+# Ignore all files that the OS automatically creates in a directory.
 .DS_Store
 
 # IDEs
+#
+# Ignore all files that IDEs automatically create in a directory.
 .idea
 .fleet
