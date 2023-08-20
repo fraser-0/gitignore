@@ -16,15 +16,18 @@
 # Sensitive
 #
 # Ignore sensitive files that should not be shared.
+*.cer
 *.env
 *.env.dev
 *.env.development
 *.env.uat
 *.env.prod
 *.env.production
-*.cer
-*.p12
-*.p8
-*.pem
+*.jks
+*.jwks
 *.key
 *.key.pub
+*.p8
+*.p12
+*.pem
+*.pid
