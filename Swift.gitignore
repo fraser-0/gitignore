@@ -13,6 +13,16 @@
 .idea
 .fleet
 
+# Sensitive
+#
+# Ignore sensitive files that should not be shared.
+*.cer
+*.p12
+*.p8
+*.pem
+*.key
+*.key.pub
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -70,9 +80,6 @@ Config.xcconfig
 *.xcuserdata
 *xcworkspace/xcuserdata/*
 */xcuserdata/*
-
-# Sensitive
-*.cer
 
 # Playgrounds
 timeline.xctimeline

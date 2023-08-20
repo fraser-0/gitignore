@@ -12,3 +12,13 @@
 # Ignore all files that IDEs automatically create in a directory.
 .idea
 .fleet
+
+# Sensitive
+#
+# Ignore sensitive files that should not be shared.
+*.cer
+*.p12
+*.p8
+*.pem
+*.key
+*.key.pub
