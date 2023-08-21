@@ -17,12 +17,7 @@
 #
 # Ignore sensitive files that should not be shared.
 *.cer
-*.env
-*.env.dev
-*.env.development
-*.env.uat
-*.env.prod
-*.env.production
+*.env*
 *.jks
 *.jwks
 *.key
