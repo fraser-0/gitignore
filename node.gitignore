@@ -65,4 +65,4 @@ lerna-debug.log*
 # TypeScript
 #
 # Remove all unnecessary TypeScript files.
-.tsbuildinfo
+tsconfig.tsbuildinfo
