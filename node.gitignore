@@ -40,5 +40,8 @@
 node_modules
 
 # Build directories
+#
+# Remove all potential build directories.
+# Comment out those that aren't in use.
 build
 dist
