@@ -10,8 +10,13 @@
 # IDEs
 #
 # Ignore all files that IDEs automatically create in a directory.
-.idea
 .fleet
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # Sensitive
 #
