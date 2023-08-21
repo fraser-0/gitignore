@@ -38,3 +38,6 @@
 #
 # Remove all directories that are used to store dependencies.
 node_modules
+
+# Build directories
+dist
