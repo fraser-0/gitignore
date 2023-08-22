@@ -46,14 +46,15 @@
 *.zip
 
 # Compiled source
-#
-# Ignore compiled source files.
 *.com
 *.class
 *.dll
 *.exe
 *.o
 *.so
+
+# Databases
+*.sqlite
 
 # Swift
 #
