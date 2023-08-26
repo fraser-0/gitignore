@@ -12,6 +12,10 @@
 # Ignore all files that IDEs automatically create in a directory.
 .fleet
 .idea
+*.iml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -27,6 +31,7 @@
 *.jwks
 *.key
 *.key.pub
+*.keystore
 *.p8
 *.p12
 *.pem
@@ -43,7 +48,11 @@
 *.jar
 *.rar
 *.tar
+*.tar.gz
 *.zip
+*.war
+*.nar
+*.ear
 
 # Compiled source
 *.com
