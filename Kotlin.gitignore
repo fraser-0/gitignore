@@ -1,0 +1,102 @@
+# Project specific ignores
+#
+# Add any project specific ignores here.
+
+# OS
+#
+# Ignore all files that the OS automatically creates in a directory.
+.DS_Store
+
+# IDEs
+#
+# Ignore all files that IDEs automatically create in a directory.
+.fleet
+.idea
+*.iml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sensitive
+#
+# Ignore sensitive files that should not be shared.
+*.cer
+*.env*
+*.jks
+*.jwks
+*.key
+*.key.pub
+*.keystore
+*.p8
+*.p12
+*.pem
+*.pid
+
+# Packages
+#
+# It's better to unpack these files and commit the raw source
+# git has its own built in compression methods.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.zip
+*.war
+*.nar
+*.ear
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Databases
+*.sqlite
+
+# Android, Java, Kotlin
+
+# Gradle files
+.gradle
+build
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+output.json
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
