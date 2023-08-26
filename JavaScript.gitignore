@@ -56,7 +56,7 @@
 # Databases
 *.sqlite
 
-# Node
+# JavaScript, Node, TypeScript
 
 # Dependency directories
 #
