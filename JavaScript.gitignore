@@ -100,6 +100,7 @@ lerna-debug.log*
 # Svelte
 /.svelte-kit
 /package
+/.vercel
 
 # TypeScript
 #
