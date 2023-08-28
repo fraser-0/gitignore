@@ -67,7 +67,7 @@ render.experimental.xml
 # Databases
 *.sqlite
 
-# JavaScript, Node, TypeScript
+# JavaScript, Node, Svelte, TypeScript
 
 # Dependency directories
 #
@@ -97,7 +97,15 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Svelte
+/.svelte-kit
+/package
+
 # TypeScript
 #
 # Remove all unnecessary TypeScript files.
 tsconfig.tsbuildinfo
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
