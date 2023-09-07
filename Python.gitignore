@@ -70,6 +70,8 @@ render.experimental.xml
 *.sqlite3
 *.csv
 
+# Language ignores below here
+
 # Python
 
 # Byte-compiled / optimized / DLL files

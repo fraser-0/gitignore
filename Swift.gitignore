@@ -65,7 +65,11 @@ render.experimental.xml
 *.so
 
 # Databases
+*.csv
 *.sqlite
+*.sqlite3
+
+# Language ignores below here
 
 # Apple, Objective-C, Swift, Xcode
 #

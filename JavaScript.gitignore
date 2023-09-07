@@ -70,6 +70,8 @@ render.experimental.xml
 *.sqlite
 *.sqlite3
 
+# Language ignores below here
+
 # JavaScript, Node, Svelte, TypeScript
 
 # Dependency directories

@@ -69,3 +69,5 @@ render.experimental.xml
 *.csv
 *.sqlite
 *.sqlite3
+
+# Language ignores below here
