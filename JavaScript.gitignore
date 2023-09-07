@@ -29,6 +29,7 @@ render.experimental.xml
 .env
 .env*
 !.env.example
+*.gpg
 *.jks
 *.jwks
 *.key
@@ -65,7 +66,9 @@ render.experimental.xml
 *.so
 
 # Databases
+*.csv
 *.sqlite
+*.sqlite3
 
 # JavaScript, Node, Svelte, TypeScript
 
