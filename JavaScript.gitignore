@@ -92,6 +92,18 @@ dist
 # Remove all potential test directories.
 coverage
 
+# Expo
+#
+# Remove Expo project specific files. Includes native files.
+.expo/
+dist/
+web-build/
+*.orig.*
+*.jks
+*.mobileprovision
+.metro-health-check*
+
+
 # Logs
 #
 # Remove all potential log files.
@@ -116,6 +128,7 @@ lerna-debug.log*
 #
 # Remove all unnecessary TypeScript files.
 tsconfig.tsbuildinfo
+*.tsbuildinfo
 
 # Vite
 vite.config.js.timestamp-*
