@@ -39,7 +39,6 @@ Package.resolved
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 
-
 # Credentials
 .netrc
 
