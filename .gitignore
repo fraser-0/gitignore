@@ -30,6 +30,7 @@ render.experimental.xml
 .env
 .env*
 !.env.example
+!.env.template
 *.gpg
 *.jks
 *.jwks
