@@ -1,21 +1,58 @@
-# JavaScript, Node, Svelte, TypeScript
+# Bun, JavaScript, Node, Svelte, TypeScript
+
+# General ignores should be added above language specific ignores
+
+# Project specific ignores
+#
+# Add any project specific ignores here.
 
 # Dependency directories
 #
 # Remove all directories that are used to store dependencies.
 node_modules
+bower_components
+jspm_packages
+web_modules
 
 # Build directories
 #
 # Remove all potential build directories.
 # Comment out those that aren't in use.
-build
+out
 dist
+build
+*.tgz
+.next
+.nuxt
+.vuepress/dist
+.serverless
 
-# Test directories
+# Build tools
+.grunt
+
+# Cache
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.cache
+.parcel-cache
+.temp
+.cache
+.docusaurus
+.fusebox
+
+# Test and coverage
 #
 # Remove all potential test directories.
 coverage
+*.lcov
+lib-cov
+.nyc_output
 
 # Expo
 #
@@ -39,6 +76,18 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# REPL
+.node_repl_history
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
 # Shopify
 .shopify
 .mf
@@ -47,6 +96,9 @@ lerna-debug.log*
 /.svelte-kit
 /package
 /.vercel
+
+# TernJS
+.tern-port
 
 # TypeScript
 #
@@ -57,3 +109,10 @@ tsconfig.tsbuildinfo
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*

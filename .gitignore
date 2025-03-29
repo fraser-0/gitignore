@@ -23,6 +23,7 @@ misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 .vscode
+.vscode-test
 # .vscode/*
 # !.vscode/settings.json
 # !.vscode/tasks.json
@@ -79,5 +80,11 @@ render.experimental.xml
 *.sqlite
 *.sqlite3
 *azurite*.json
+.dynamodb
 
-# Language ignores below here
+# Logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# Language ignores below here or in project specific .gitignore files
