@@ -1,5 +1,11 @@
 # Android, Java, Kotlin
 
+# General ignores should be added above language specific ignores
+
+# Project specific ignores
+#
+# Add any project specific ignores here.
+
 # Gradle files
 .gradle
 .gradle/

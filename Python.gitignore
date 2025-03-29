@@ -1,5 +1,11 @@
 # Python
 
+# General ignores should be added above language specific ignores
+
+# Project specific ignores
+#
+# Add any project specific ignores here.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

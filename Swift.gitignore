@@ -1,5 +1,11 @@
 # Apple, Objective-C, Swift, Xcode
 
+# General ignores should be added above language specific ignores
+
+# Project specific ignores
+#
+# Add any project specific ignores here.
+
 # User settings
 xcuserdata
 xcuserdata/

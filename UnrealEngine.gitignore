@@ -1,5 +1,11 @@
 # Unreal Engine
 
+# General ignores should be added above language specific ignores
+
+# Project specific ignores
+#
+# Add any project specific ignores here.
+
 # Visual Studio 2015 user specific files
 .vs/
 
