@@ -27,6 +27,11 @@ build
 .vuepress/dist
 .serverless
 
+# Binary directories
+#
+# Remove all potential binary directories.
+releases
+
 # Build tools
 .grunt
 
