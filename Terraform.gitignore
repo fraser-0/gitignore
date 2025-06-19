@@ -47,3 +47,7 @@ terraform.rc
 
 # CDKTF
 cdktf.out/
+cdktf.log
+dist/
+imports/
+!imports/__init__.py
