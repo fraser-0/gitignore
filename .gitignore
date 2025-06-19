@@ -1,6 +1,9 @@
-# Project specific ignores
-#
-# Add any project specific ignores here.
+# These are shared ignores for all projects.
+# Below the last line should be project specific ignores.
+
+
+
+
 
 # OS
 #

@@ -1,3 +1,10 @@
+# If this is the root .gitignore file, then add shared ignores above this line.
+# Otherwise, shared ignores should be in the root .gitignore file.
+
+
+
+
+
 # Android, Java, Kotlin
 
 # General ignores should be added above language specific ignores
