@@ -104,6 +104,10 @@ pids
 .shopify
 .mf
 
+# Storybook
+*storybook.log
+storybook-static
+
 # Svelte
 /.svelte-kit
 /package
