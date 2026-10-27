@@ -1,9 +1,10 @@
-# These are shared ignores for all projects.
-# Below the last line should be project specific ignores.
+# Project ignores
+# Add ignores below this line that are specific to the project.
 
 
 
-
+# Shared ignores
+# These are ignores that should be shared across all projects and languages.
 
 # OS
 #
@@ -91,4 +92,7 @@ logs
 _.log
 report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
-# Language ignores below here or in project specific .gitignore files
+
+
+# Language ignores
+# Add ignores that are specific to the language(s) used in this project.
